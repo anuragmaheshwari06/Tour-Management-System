@@ -1,37 +1,9 @@
-# Tours-and-travels-in-php
-Online Tours &amp; Travels management system: This is an online project developed using PHP and MySQL.  The purpose of this project is to provide the complete information about the vehicles available for a tour.  There are 2 different types of users. First the customer visits the site and enters the place from where to where he wishes to travel.  He also provides the date as when he would like to travel.  Then he sends these details to the travel and tourism agency. The employee of travel and tourism agency receives the mail and check which vehicle is available for that day and reverts back to the customer along with the quotation.  If the customer agrees for any one of the quotation, he can reply back along with agreed quotation.
-Online Tours & Travels management system: This is an online project developed using PHP and MySQL.
-
-The purpose of this project is to provide the complete information about the vehicles available for a tour.
-
-There are 2 different types of users. First the customer visits the site and enters the place from where to where he wishes to travel.
-
-He also provides the date as when he would like to travel.
-
-Then he sends these details to the travel and tourism agency. The employee of travel and tourism agency receives the mail and check which vehicle is available for that day and reverts back to the customer along with the quotation.
-
-If the customer agrees for any one of the quotation, he can reply back along with agreed quotation.
-
-Objective Of the Project
-Faster processing time and more accurate data for travel requests and reimbursements
-Ability for travelers to track authorization and reimbursement request status through the system rather than via phone calls or campus mail
-Major technological upgrades to the current travel system
-Use of IU’s standardized, virtual J2EE environments
-Many new features and enhancements
-Software Requirements
-WAMP Server
-XAMPP Server
-Installation/Configuration Steps
-Download zip files and Unzip files.
-Copy and Paste the unzip files inside “c:/wamp/www/” or “c:/xampp/htdocs/”.
-Database Configuration:
-Create a new database named “db name”.
-Import database travel.sql file through phpmyadmin dashboard
-Run/Execute PHP Projects
-Open Your Web Browser
-Put/type inside the web browser : “localhost/project folder”
-Admin Login
-Open Your Web Browser
-Put/type inside the web browser : “localhost/project folder/Admin”
-Admin User : admin
-Admin Password : admin
+# Tour Management in php
+Tour management system is a method to plan your HOLIDAYS. It basically comprises of three parts –
+1. User
+2. Admin
+3. Hotel
+The combination of all these three helps in implementing this database. In this project the application formed helps the user to plan his leave to a Country or state within his country or any other city. The key aspects are booking a Hotel in the destination place as well as giving the user an idea about how much the trip will cost him.
+So, basically it helps the user to manage a trip as per his/her convenience considering his budget and the time and the preferred location.
+The admin behind the screen makes contact with the hotel and also keep a check on the payment portal. This how all the three parts of the system works.
+Basically, in all when a user registers the unique user id gets stores in the database being managed by the admin. After registering user enters the destination with his/her details like the number of members accompanying him followed by his budget. Now, as per these details the admin a back provides him with the available hotels within his budget. And, finally the user decides whether he/she would like to go for it.
